@@ -7,6 +7,7 @@ code could be more complicated
 delay in response as client may not notice that it's a remote object in remote proxy
 
 provides a class which limits access to another class
+both the proxy and the real class implements the same interface
 
 
  */
