@@ -6,7 +6,7 @@ cons:
 code could be more complicated
 delay in response as client may not notice that its a remote object in remote proxy
 
-
+provides a class which limits access to another class
 
 
  */
@@ -66,7 +66,7 @@ class Employee{
 
 
 
-
+//client
 public class Main {
 
     public static void main(String[] args) {
