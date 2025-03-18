@@ -1,10 +1,10 @@
 package Proxy;
 
 /*
-بنحط بلايس هولدر مكان الصورة عقبال ما السرفر يروح يجيب الصورة الحقيقية
+ex: putting a placeholder instead of the pic till we got it from the remote server
 cons:
 code could be more complicated
-delay in response as client may not notice that its a remote object in remote proxy
+delay in response as client may not notice that it's a remote object in remote proxy
 
 provides a class which limits access to another class
 
