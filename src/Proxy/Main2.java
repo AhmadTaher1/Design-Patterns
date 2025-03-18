@@ -1,4 +1,4 @@
-package Mediator;
+package Proxy;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
