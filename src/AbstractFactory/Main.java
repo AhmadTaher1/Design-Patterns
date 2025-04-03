@@ -3,6 +3,9 @@ package AbstractFactory;
 
 
 /*
+if there's a need to create a family of related objects within a hierarchy
+we use the abstract factory pattern to create factories with the same hierarchy
+used for wholesale creation of objects
  */
 
 

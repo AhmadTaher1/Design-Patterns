@@ -1,8 +1,11 @@
 package Builder;
 
-
+//fluent builder pattern allows chaining by returning the same object "return this;" @ the end of each method
 
 /*
+used for piecewise construction of an object
+
+when we have a class with many parameters
 I don't need every time I create object to set values for all of its parameters
 solutions??
 we may pass nulls to unnecessary att.

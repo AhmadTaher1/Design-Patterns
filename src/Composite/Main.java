@@ -1,11 +1,14 @@
 package Composite;
 
 /*
+it's a mechanism for treating a group of objects in the same way as a single instance of an object
+foo and List<foo> are treated the same way
+we use it to create a tree structure
 Usage???
 
 when I want to have Single source of truth
 when the core can be represented by a tree
-if I will treat all the classes as one type so I can apply polymorphism
+if I will treat all the classes as one type so that I can apply polymorphism
 helps with open close principle
 
  */
@@ -51,7 +54,7 @@ class Webview implements Component{
 //not a leaf node
 class Container implements Component{
 
-    private List<Component> componentList;
+    private List<Component> componentList;  //this is the most important par tof the pattern
     private String name;
 
     public Container(String name) {
@@ -62,16 +65,19 @@ class Container implements Component{
     public String getname() {
         return name;
     }
+
     public void addChild(Component c){
         componentList.add(c);
     }
     public void RemoveChild(Component c){
         componentList.remove(c);
     }
+
     public void getAllChildren(){
         for(Component c:this.componentList){
             if(c instanceof Container){
                 ((Container) c).getAllChildren();
+
             }
             System.out.println(c.getname());
         }
