@@ -1,5 +1,10 @@
 package Bridge;
 
+
+//when we have inheritance hierarchy which results in Cartesian-product duplication
+// ,we want to avoid it we use The bridge pattern (very important)
+
+
 /*
 in the multi-platform i need to separate the O.S and the view system so that any change in the o.s will affect it and
 I will have to modify in the gui side and vice versa (decoupling)
