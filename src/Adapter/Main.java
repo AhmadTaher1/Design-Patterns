@@ -1,6 +1,6 @@
 package Adapter;
 
-
+//there's to type of adapters with caching and without cashing
 //str design pattern
 /*
 (object adapter)
