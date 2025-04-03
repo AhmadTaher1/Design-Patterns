@@ -1,6 +1,7 @@
 package Decorator;
 
 /*
+facilitates adding new functionality to an object without altering its structure or inheriting from it
 when to use?
 extra behavior at runtime instead of using static inheritance
 also for final classes that can't be extended
