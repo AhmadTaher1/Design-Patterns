@@ -1,5 +1,11 @@
 package Proxy;
 
+
+//when we have inheritance hierarchy which results in Cartesian-product duplication
+// ,we want to avoid it we use The bridge pattern (very important)
+
+
+
 /*
 ex: putting a placeholder instead of the pic till we got it from the remote server
 cons:
