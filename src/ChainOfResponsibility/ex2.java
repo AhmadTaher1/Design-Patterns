@@ -11,6 +11,9 @@ abstract class Creature
     public Creature(Game game) {
         this.game = game;
         game.creatures.add(this);
+       // System.out.println("Inside Creature, this.getClass(): " + this.getClass().getSimpleName());
+        //if this constructor worked due to chaining while creating Goblin for ex so  this.getClass() will be Goblin
+        //as this will always point to the actual object that has been created
 
     }
 
