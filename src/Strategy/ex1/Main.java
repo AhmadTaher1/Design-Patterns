@@ -1,4 +1,4 @@
-package Strategy;
+package Strategy.ex1;
 /*
 
 when to use??
