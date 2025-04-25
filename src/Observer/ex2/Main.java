@@ -1,6 +1,4 @@
-package Observer;
-
-import java.util.Observable;
+package Observer.ex2;
 
 public class Main {
 

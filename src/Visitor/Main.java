@@ -1,8 +1,14 @@
 package Visitor;
 
 /*
+
+A pattern where component is allowed to traverse the entire inheritence hierarchy implemented by propagating a single visit method throughout the entire hierarchy
 when to use??
+
+when we need to add a new capability to all the classes in a certain hierarchy
 when we need to perform an operation on all elements of a complex object str.
+
+
 
 programming scenarios:
 store app ex
